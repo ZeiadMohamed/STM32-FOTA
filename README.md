@@ -45,10 +45,6 @@ I tested the project with uploading an application which blink a LED every 500 m
 
 
 
-Source code: https://lnkd.in/dNczMF7Q
 
 
 
-#embeddedsystems #embeddedsoftware #FOTA #c
-
-#BootLoader #ESP8266 #embeddedc 
