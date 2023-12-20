@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>  Zeiad's FOTA </title>
+
+    <script src="https://kit.fontawesome.com/38f71c3232.js" crossorigin="anonymous"></script>
+    <!-- for icons visit https://fontawesome.com/ -->
+
+    <link rel="stylesheet" href="stylee.css">
+
+  </head>
+  <body>
+
+    <h1>Zeiad's FOTA </h1>
+
+      <!-- The Uploading Section -->
+
+    <div class = " center">
+
+      <br><br>
+      <p> It's FOTA for STM32f103 </p>
+      <br><br>
+	  <p1> "Don't forget to make the app start from 0x08003000 in linker script" </p1>
+	  <br><br>	  
+	  <p>  Select hex file to upload:</p>
+	  <br><br>
+
+    <div class = " center">
+
+      <form action="start_flash.php" method="post" enctype="multipart/form-data">
+         <div class='file file--submit'>
+            <label for='flash'>
+              <i class="fas fa-microchip"></i> Flash code
+            </label>
+            <input type='submit' id='flash' name='flash' value='ok'>
+         </div>
+      </form>
+    </div>
+
+  
+
+
+
+   </body>
+ </html>

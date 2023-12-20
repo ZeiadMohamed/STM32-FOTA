@@ -1,0 +1,103 @@
+body {
+  background-color:black;
+
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+p {
+  color : red;
+  font-family: verdana;
+  font-size: 28px;
+}
+
+p1 {
+  color : blue;
+  font-family: verdana;
+  font-size: 12px;
+}
+
+.center {
+  text-align: center;
+
+  }
+
+
+
+.file {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file > input[type='file'] {
+  display: none
+}
+.file > input[type='submit'] {
+  display: none
+}
+.file > label {
+
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+  outline: 0;
+  user-select: none;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-style: solid;
+  border-radius: 12px;
+  border-width: 1px;
+  background-color: #f44336;
+  color: hsl(0, 0%, 29%);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px 2px;
+}
+.file > label:hover {
+  border-color: hsl(0, 0%, 21%);
+}
+
+.file > label:active {
+  background-color: hsl(0, 0%, 96%);
+}
+
+
+.file--upload > label {
+  color: white;
+  border-color: hsl(204, 86%, 53%);
+}
+.file > label > i {
+  padding-right: 5px;
+}
+.file--upload > label:hover {
+ color : black;
+  background-color: hsl(204, 86%, 96%);
+}
+
+.file--upload > label:active {
+  background-color: hsl(204, 86%, 91%);
+}
+
+.file--submit > label {
+
+  color: white;
+ border-color: hsl(204, 86%, 53%);
+}
+.file--submit > label:hover {
+   color : black;
+  background-color: hsl(141, 71%, 96%);
+}
+.file--submit > label:active {
+ background-color: hsl(141, 71%, 91%);
+}

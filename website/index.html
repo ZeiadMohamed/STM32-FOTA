@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>  Zeiad's FOTA </title>
+
+    <script src="https://kit.fontawesome.com/38f71c3232.js" crossorigin="anonymous"></script>
+    <!-- for icons visit https://fontawesome.com/ -->
+
+    <link rel="stylesheet" href="stylee.css">
+
+  </head>
+  <body>
+
+    <h1>Zeiad's FOTA </h1>
+
+      <!-- The Uploading Section -->
+
+    <div class = " center">
+
+      <br><br>
+      <p> It's FOTA for STM32f103 </p>
+      <br><br>
+	  <p1> "Don't forget to make the app start from 0x08003000 in linker script" </p1>
+	  <br><br>	  
+	  <p>  Select hex file to upload:</p>
+	  <br><br>
+
+
+      <form action="upload.php" method="post" enctype="multipart/form-data">
+          <div class='file file--upload'>
+            <label for='fileToUpload'>
+               <i class="fa-solid fa-magnifying-glass"></i> Choose File
+            </label>
+      	    <input type="file" name="fileToUpload" id="fileToUpload" accept=".hex" >
+
+
+            <div class='file file--submit'>
+              <label for='submit'>
+                <i class="fa-solid fa-file-arrow-up"></i> Upload
+              </label>
+        	    <input type="submit" id='submit' value="submit" name="submit" >
+            </div>
+          </div>
+
+       </form>
+
+    </div>
+    <br><br><br><br><br>
+
+
+
+
+
+  </body>
+</html>
